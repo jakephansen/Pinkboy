@@ -1,0 +1,64 @@
+html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  padding: 15px;
+  background-color: black;
+}
+
+footer {
+  height: 50px;
+  background-color: black;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+
+.picture_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-style: dotted;
+
+}
+
+#Top {
+  background-color: pink;
+}
+
+
+.title {
+  line-height: 40px;
+  font-size: 40px;
+  padding: 10px;
+  margin: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: pink;
+  color: white;
+  letter-spacing: 4px;
+}
+
+.menu {
+  text-align: center;
+  color: white;
+  padding: 10px 0 5px 0;
+}
+
+.menu span {
+  margin-right: 30px;
+  padding: 5px;
+  border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.menu span:hover {
+  color: rgb(180, 166, 143);
+  border-bottom: 2px solid rgb(151, 138, 116);
+}
